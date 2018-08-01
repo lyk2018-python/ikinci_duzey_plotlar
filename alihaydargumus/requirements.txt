@@ -1,0 +1,6 @@
+celery
+ipython
+pyside2
+selenium
+flake8
+cairocffi
