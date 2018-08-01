@@ -1,8 +1,13 @@
 import requests
 import bs4
+import matplotlib
+
+matplotlib.use('Cairo')
+
 import matplotlib.pyplot as pyplot
 
 labelsnsizes = {}
+
 
 for i in range(0, 20):
     request = requests.get('https://stackoverflow.com/questions?page={}&sort=newest'.format(i))
