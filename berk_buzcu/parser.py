@@ -18,3 +18,4 @@ plotted = pyplot.pie([float(v) for v in labelsnsizes.values() if v > 5],
                      labels=[k for k in labelsnsizes if labelsnsizes[k] > 5],
                      autopct=None)
 pyplot.show()
+pyplot.savefig("plot.png")
