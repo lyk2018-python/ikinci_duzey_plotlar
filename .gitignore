@@ -1,5 +1,7 @@
 venv/
 .venv/
 .git/
+.idea/
+__pycache__/
 LICENSE
 README.md
