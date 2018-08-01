@@ -1,0 +1,6 @@
+matplotlib
+bs4
+requests
+lxml
+numpy
+cairo
