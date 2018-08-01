@@ -1,0 +1,4 @@
+matplotlib
+pyside2
+requests
+beautifulsoup4
