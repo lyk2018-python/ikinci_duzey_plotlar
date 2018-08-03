@@ -31,7 +31,7 @@ def count_the_messages_by_word():
 
     message_counts = Counter([word for word in n.split() if not word.isdecimal()])
     message_counts = message_counts.most_common(25)
-    data, labels = [i[1] for i in message_counts], [j[0] for j in message_counts]
+    data, labels = list(zip(*message_counts))
     plt.pie(data, labels=labels)
     plt.title("Most common 25 words")
     plt.show()
